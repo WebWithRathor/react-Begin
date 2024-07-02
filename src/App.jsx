@@ -36,6 +36,7 @@ export const App = () => {
   console.log(listner)
   return (
     <>
+    <div className='w-96 h-96 bg-slate-500 m-10 astha'></div>
       <h1 ref={wow} className="text-red-500 font-medium" >Form on react</h1>
       <form onSubmit={handle} action="">
         <input type="radio" onChange={(e) => setGender(e.target.value)} value='male' checked={Gender === 'male' ? true : false} name="a" id="" /> <label htmlFor=''>Male</label>
